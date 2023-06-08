@@ -1,6 +1,10 @@
 import LetterCard from './LetterCard';
 
-const style = {
+interface Style {
+  [key: string]: string;
+}
+
+const style: Style = {
   display: 'flex',
   flexDirection: 'column',
   gap: '0.5em 0',

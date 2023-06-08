@@ -1,4 +1,7 @@
-const alphabets = {
+interface Alphabet {
+  [key: string]: string[];
+}
+const alphabets: Alphabet = {
   a: ['assets/imgs/a-apple.jpg', 'assets/audios/a.mp3'],
   b: ['assets/imgs/b-batman.jpeg', 'assets/audios/b.mp3'],
   c: ['assets/imgs/c-chicken.jpg', 'assets/audios/c.mp3'],

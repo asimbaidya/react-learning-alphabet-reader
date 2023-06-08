@@ -1,10 +1,9 @@
-import React from 'react';
-import AlphabetList from './components/AlphabetList';
+import AlphabetList from "./components/AlphabetList";
 
 export default function App() {
   return (
     <>
-      <h1 style={{ textAlign: 'center' }}>Alphabet List</h1>
+      <h1 style={{ textAlign: "center" }}>Alphabets</h1>
       <AlphabetList />
     </>
   );
