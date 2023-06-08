@@ -1,0 +1,49 @@
+.letter-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+
+  .letter {
+    font-size: 5em;
+    transition: all 0.3s ease-in-out;
+  }
+  .letter,
+  .image {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8839ef;
+  }
+}
+
+.image img {
+  max-width: 100% !important;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.letter-card:hover {
+  .letter {
+    color: #181926;
+  }
+}
+.letter-card:active {
+  .letter {
+    color: red;
+    background-color: black;
+  }
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+  .letter-card {
+    width: 60vw;
+    margin: auto;
+  }
+  .letter {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 30em !important;
+  }
+}
