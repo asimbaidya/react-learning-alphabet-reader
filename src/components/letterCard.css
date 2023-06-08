@@ -15,6 +15,11 @@
     align-items: center;
     background-color: #8839ef;
   }
+  .letter:hover,
+  .image:hover {
+    box-shadow: 0 0 2px 5px #58098f;
+    transition: all 0.2s ease-in-out;
+  }
 }
 
 .image img {
